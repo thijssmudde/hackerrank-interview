@@ -1,0 +1,32 @@
+{
+  "name": "jest-starter",
+  "version": "1.0.0",
+  "description": "A simple jest starter with babel 7",
+  "keywords": [
+    "jest",
+    "es6",
+    "ecmascript 6",
+    "babel 7"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "debug": "jest --inspect"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "author": "Hamza HAMIDI",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@types/jest": "^27.0.3",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
+  }
+}
